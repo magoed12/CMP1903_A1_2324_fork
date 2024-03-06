@@ -9,6 +9,17 @@ namespace CMP1903_A1_2324
 {
     internal class Testing// testing class declared
     {
+<<<<<<< HEAD
+        /*
+         * This class should test the Game and the Die class.
+         * Create a Game object, call the methods and compare their output to expected output.
+         * Create a Die object and call its method.
+         * Use debug.assert() to make the comparisons and tests.
+         */
+
+        //Method
+        //
+=======
         public void Test()// testing method called Test called in the main program
         {
             Game game = new Game();// creates a Game object simply called game
@@ -19,5 +30,6 @@ namespace CMP1903_A1_2324
             Debug.Assert(values.Item2 < 7 && values.Item2 > 0, "A die roll is invalid");
             Debug.Assert(values.Item3 < 7 && values.Item3 > 0, "A die roll is invalid");
         }
+>>>>>>> Developmental
     }
 }
